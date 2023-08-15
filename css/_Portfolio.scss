@@ -1,0 +1,51 @@
+.Portfolio{
+    @include flex-box;
+    padding: 50px 10px;
+
+
+    h1{
+        margin-bottom: 10px;
+    }
+
+    .port-left{
+        width: 49.5%;
+
+        img{
+            width: 100%;
+        }
+
+        img:hover{
+            padding: 5px;
+            transition: 1s;
+        }
+
+
+    }
+
+    .port-right{
+        width: 49.5%;
+
+        img{
+            width: 100%;
+        }
+
+        img:hover{
+            padding: 5px;
+            transition: 1s;
+        }
+
+
+        
+    }
+
+    span{
+        color: goldenrod;
+    }
+}
+
+
+.heading{
+    text-align: center;
+    padding: 60px 0px 20px 0px;
+    color: goldenrod;
+}

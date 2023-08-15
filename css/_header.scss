@@ -1,0 +1,76 @@
+.banner{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    bottom: 500px;
+
+    h1{
+        font-size: 6rem;
+        color: $white;
+    }
+
+    p{
+        color: $white;
+        font-size: 1.5rem;
+
+
+        span{
+           text-decoration: underline;
+           font-weight: bolder;
+        }
+    }
+}
+
+
+
+header{
+
+    position: relative;
+    bottom: 165px;
+    width: 100%;
+    box-shadow: 5px 5px 10px grey;
+    height: 60px;
+    border-radius: 5px;
+
+  
+    .nav{
+        
+     .fa{
+        float: right;
+        display: none;
+     }
+
+        h1{
+            float: left;
+            color: goldenrod;
+            padding: 10px 10px;
+        }
+
+        ul{
+            float: right;
+
+
+            li{
+                list-style: none;
+                float: left;
+                padding: 15px;
+                margin-right: 50px;
+                
+                a{
+                    text-decoration: none;
+                    color: $grey;
+                }
+
+                a:hover{
+                    color: goldenrod;
+                    font-size: 1rem;
+                    text-decoration: underline;
+                   
+                    
+                }
+            }
+        }
+    }
+}
+
+

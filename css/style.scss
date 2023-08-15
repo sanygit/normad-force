@@ -1,0 +1,65 @@
+html{
+    font-size: 15px;
+
+}
+
+html,body{
+     
+    width: 100%;
+    
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Noto Sans JP';
+    
+   
+    
+}
+
+$white:white;
+$grey:grey;
+
+@mixin flex-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+// banner starts here
+
+.inner{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px 10px;
+    
+}
+
+
+
+// header starts here
+
+@import "header";
+
+// section-1 starts here
+
+@import "section-1";
+
+// bigsection starts here
+@import "bigsection";
+// Portfolio starts here
+@import "portfolio";
+
+// news starts here
+@import "news";
+
+// form starts here
+@import "center-form";
+
+// footer starts here
+@import "footer";
+
+// media query starts here
+
+@import "media";

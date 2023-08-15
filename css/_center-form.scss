@@ -1,0 +1,55 @@
+.center-form{
+    width: 50%;
+    margin: 0 auto;
+    padding: 60px 20px;
+   
+    
+    h2{
+        text-align: center;
+        padding: 30px 0px;
+        font-size: 3rem;
+    }
+
+    form{
+
+        #user{
+                width: 48%;
+                height: 2rem;
+        }
+
+        #email{
+            width: 48%;
+            height: 2rem;
+        }
+
+        #textarea{
+            width: 99%;
+            height: 10rem;
+        }
+
+
+        #submit{
+            width: 200px;
+            height: 50px;
+            border-radius: 50px;
+            color:  rgb(45, 43, 43);
+            border:1px solid rgb(45, 43, 43);
+            margin: 50px 35%;
+        }
+        
+        #dig{
+            margin-left: 20px;
+        }
+
+        #web{
+
+            margin-left: 20px;
+
+        }
+
+        #submit:hover{
+            background-color:rgb(45, 43, 43);
+            color: white;
+        }
+    }
+}

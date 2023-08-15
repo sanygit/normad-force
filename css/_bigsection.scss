@@ -1,0 +1,57 @@
+.bigsection{
+    width: 100%;
+    @include flex-box;
+   
+
+    .section-image{
+        width: 30%;
+
+        img{
+            width: 100%;
+          
+        }
+
+        img:hover{
+          padding: 5px;
+        transition: 1s;
+        }
+    }
+
+    .section-text{
+        width: 30%;
+        background: rgba(0, 0, 0, 0.738);
+        color: $white;
+         padding: 4rem;
+
+        
+        h1{
+            font-size: 2rem;
+           
+        }
+
+        p{
+            margin-top: 15px;
+
+        }
+
+        h4{
+            margin-top: 15px;
+        }
+
+
+    }
+
+    .second-image{
+        width: 60%;
+
+        img{
+            width: 100%;
+        }
+
+        img:hover{
+          padding: 5px;
+          transition: 1s;
+        }
+
+    }
+}

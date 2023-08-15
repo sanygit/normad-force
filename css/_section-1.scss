@@ -1,0 +1,28 @@
+.section-1{
+
+    @include flex-box;
+    padding-bottom: 120px;
+    width: 100%;
+
+    p{
+        color: $grey;
+        
+    }
+
+    .left{
+        width: 45%;
+
+        h1{
+            font-size: 2.5rem;
+            font-weight: bolder;
+            margin-bottom: 1rem;
+
+        }
+
+
+    }
+
+    .right{
+        width: 45%;
+    }
+}

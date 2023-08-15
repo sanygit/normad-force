@@ -1,0 +1,42 @@
+.footer{
+
+   
+    padding-top: 30px;
+    padding-bottom: 60px;
+    
+  
+     
+     .copyright{
+       
+         float: left;
+     }
+ 
+     .social{
+        
+         float: right;
+ 
+         .fa{
+             font-size: 25px;
+             margin-left: 10px;
+             margin-right: 10px;
+             border: 2px solid lightgray;
+             border-radius: 50%;
+             padding: 5px;
+             color: white;
+             background-color: black;
+ 
+         }
+
+         .fa:hover{
+            background-color: white;
+            color: black;
+         }
+     }
+    
+ 
+ }
+ 
+ // form validation
+ #myemail, #mytextarea, #username{
+   color: red;
+ }
